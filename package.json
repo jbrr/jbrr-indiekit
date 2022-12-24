@@ -1,0 +1,24 @@
+{
+  "name": "jbrr-indiekit",
+  "version": "1.0.0",
+  "description": "Indiekit server for https://kit.jbrr.dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "indiekit serve"
+  },
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18"
+  },
+  "type": "module",
+  "dependencies": {
+    "@indiekit/indiekit": "^1.0.0-beta.0",
+    "@indiekit/preset-hugo": "^1.0.0-alpha.18",
+    "@indiekit/store-github": "^1.0.0-beta.0"
+  }
+}
