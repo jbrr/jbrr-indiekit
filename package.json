@@ -17,6 +17,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@indiekit/endpoint-json-feed": "^1.0.0-beta.0",
     "@indiekit/indiekit": "^1.0.0-beta.0",
     "@indiekit/preset-hugo": "^1.0.0-alpha.18",
     "@indiekit/store-github": "^1.0.0-beta.0"
