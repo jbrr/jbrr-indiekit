@@ -14,9 +14,6 @@ module.exports = {
   publication: {
     me: "https://jbrr.dev"
   },
-  "@indiekit/endpoint-micropub": {
-    mountPath: "/publisher"
-  },
   "@indiekit/preset-hugo": {
     frontMatterFormat: "yaml"
   },
