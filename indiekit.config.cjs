@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     "@indiekit/endpoint-json-feed",
     "@indiekit/endpoint-micropub",
+    "@indiekit/endpoint-posts",
     "@indiekit/preset-hugo",
     "@indiekit/store-github"
   ],
