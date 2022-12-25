@@ -4,18 +4,19 @@ module.exports = {
     mongodbUrl: process.env.MONGO_URL
   },
   plugins: [
-    "@indiekit/endpoint-auth",
+    "@indiekit/endpoint-json-feed",
     "@indiekit/endpoint-micropub",
+    "@indiekit/preset-hugo",
     "@indiekit/store-github"
   ],
   publication: {
     me: "https://jbrr.dev"
   },
-  "@indiekit/endpoint-auth": {
-    mountPath: "/authorize"
-  },
   "@indiekit/endpoint-micropub": {
     mountPath: "/publisher"
+  },
+  "@indiekit/preset-hugo": {
+    frontMatterFormat: "yaml"
   },
   "@indiekit/store-github": {
     user: "jbrr",
