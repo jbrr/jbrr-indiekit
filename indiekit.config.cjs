@@ -1,6 +1,6 @@
 module.exports = {
   application: {
-    url: "https//kit.jbrr.dev",
+    url: "https://kit.jbrr.dev",
     mongodbUrl: process.env.MONGO_URL
   },
   plugins: [
