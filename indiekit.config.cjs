@@ -4,6 +4,7 @@ module.exports = {
     mongodbUrl: process.env.MONGO_URL
   },
   plugins: [
+    "@indiekit/endpoint-auth",
     "@indiekit/endpoint-json-feed",
     "@indiekit/endpoint-micropub",
     "@indiekit/endpoint-posts",

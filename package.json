@@ -17,6 +17,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@indiekit/endpoint-auth": "^1.0.0-beta.0",
     "@indiekit/endpoint-json-feed": "^1.0.0-beta.0",
     "@indiekit/endpoint-micropub": "^1.0.0-beta.0",
     "@indiekit/endpoint-posts": "^1.0.0-beta.0",
