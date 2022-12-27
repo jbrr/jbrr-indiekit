@@ -7,12 +7,14 @@ module.exports = {
     "@indiekit/endpoint-auth",
     "@indiekit/endpoint-json-feed",
     "@indiekit/endpoint-micropub",
-    "@indiekit/endpoint-posts",
     "@indiekit/preset-hugo",
-    "@indiekit/store-github"
+    "@indiekit/store-github",
+    "@indiekit/syndicator-mastodon"
   ],
   publication: {
-    me: "https://jbrr.dev"
+    me: "https://jbrr.dev",
+    timeZone: "America/Denver",
+    enrichPostDate: true
   },
   "@indiekit/preset-hugo": {
     frontMatterFormat: "yaml"
@@ -20,6 +22,11 @@ module.exports = {
   "@indiekit/store-github": {
     user: "jbrr",
     repo: "jbrr.dev",
-    branch: "main"
+    branch: "main",
+    token: process.env.GITHUB_TOKEN
+  },
+  "@indiekit/syndicator-mastodon": {
+    user: "jbrr",
+    url: "https://mastodon.sdf.org"
   }
 }
