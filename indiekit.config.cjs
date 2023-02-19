@@ -19,6 +19,9 @@ module.exports = {
     timeZone: "America/Denver",
     enrichPostDate: true
   },
+  "@indiekit/endpoint-image": {
+    me: "https://jbrr.dev" // de-DE
+  },
   "@indiekit/preset-hugo": {
     frontMatterFormat: "yaml"
   },
