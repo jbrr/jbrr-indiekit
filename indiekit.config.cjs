@@ -1,3 +1,5 @@
+import HugoPreset from "@indiekit/preset-hugo"
+
 module.exports = {
   application: {
     url: "https://kit.jbrr.dev",
@@ -5,7 +7,6 @@ module.exports = {
   },
   plugins: [
     "@indiekit/endpoint-auth",
-    "@indiekit/endpoint-files",
     "@indiekit/endpoint-image",
     "@indiekit/endpoint-json-feed",
     "@indiekit/endpoint-media",
@@ -17,7 +18,8 @@ module.exports = {
   publication: {
     me: "https://jbrr.dev",
     timeZone: "America/Denver",
-    enrichPostDate: true
+    enrichPostDate: true,
+    preset: new HugoPreset()
   },
   "@indiekit/endpoint-image": {
     me: "https://jbrr.dev" // de-DE
