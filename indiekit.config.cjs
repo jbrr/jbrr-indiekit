@@ -1,4 +1,4 @@
-import HugoPreset from "@indiekit/preset-hugo"
+const { HugoPreset } = require("@indiekit/preset-hugo")
 
 module.exports = {
   application: {
