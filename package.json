@@ -18,7 +18,9 @@
   "type": "module",
   "dependencies": {
     "@indiekit/endpoint-auth": "^1.0.0-beta.0",
+    "@indiekit/endpoint-image": "^1.0.0-beta.0",
     "@indiekit/endpoint-json-feed": "^1.0.0-beta.0",
+    "@indiekit/endpoint-media": "^1.0.0-beta.1",
     "@indiekit/endpoint-micropub": "^1.0.0-beta.0",
     "@indiekit/endpoint-share": "^1.0.0-beta.0",
     "@indiekit/indiekit": "^1.0.0-beta.0",
