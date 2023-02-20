@@ -1,6 +1,4 @@
-import HugoPreset from '@indiekit/preset-hugo'
-
-export default {
+module.exports = {
   application: {
     url: "https://kit.jbrr.dev",
     mongodbUrl: process.env.MONGO_URL
@@ -18,8 +16,7 @@ export default {
   publication: {
     me: "https://jbrr.dev",
     timeZone: "America/Denver",
-    enrichPostDate: true,
-    preset: new HugoPreset
+    enrichPostDate: true
   },
   "@indiekit/endpoint-image": {
     me: "https://jbrr.dev" // de-DE
