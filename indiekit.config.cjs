@@ -1,6 +1,6 @@
-const { HugoPreset } = require("@indiekit/preset-hugo")
+import HugoPreset from '@indiekit/preset-hugo'
 
-module.exports = {
+export default {
   application: {
     url: "https://kit.jbrr.dev",
     mongodbUrl: process.env.MONGO_URL
@@ -19,7 +19,7 @@ module.exports = {
     me: "https://jbrr.dev",
     timeZone: "America/Denver",
     enrichPostDate: true,
-    preset: new HugoPreset()
+    preset: new HugoPreset
   },
   "@indiekit/endpoint-image": {
     me: "https://jbrr.dev" // de-DE
@@ -37,4 +37,4 @@ module.exports = {
     user: "jbrr",
     url: "https://mastodon.sdf.org"
   }
-}
+};
